@@ -231,7 +231,31 @@ line-height: 46px;
    margin: 10px 0 0;
    color:var(--gray);
 }
-
+.links_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.page{
+  font-size: 24px;
+  color: var(--white);
+}
+.links{
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+  color: var(--gray);
+}
+.contactus_container{
+  margin-top: 50px;
+}
+.contact_us{
+  font-size: 21px;
+  color: var(--white);
+}
 /* media queries */
 @media (min-width: 800px) { 
   .logo{
